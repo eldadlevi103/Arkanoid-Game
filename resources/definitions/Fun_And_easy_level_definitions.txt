@@ -3,19 +3,19 @@
 # Image Background and big blocks with 3 lives
 
 START_LEVEL
-level_name:Moon light
-ball_velocities:45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500
-background:image(background_images/moon.jpg)
+level_name:Square Moon
+ball_velocities:45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500
+background:image(background_images/night.jpg)
 paddle_speed:650
-paddle_width:260
+paddle_width:160
 block_definitions:definitions/moon_block_definitions.txt
 blocks_start_x:25
 blocks_start_y:80
 row_height:100
 num_blocks:4
 START_BLOCKS
---ll-----ll
---ll-----ll
+--ll--
+--ll--
 END_BLOCKS
 END_LEVEL
 
@@ -23,9 +23,9 @@ END_LEVEL
 # Image Background and images for blocks
 
 START_LEVEL
-level_name:lion's cage
+level_name:Welcome to the Jungle
 ball_velocities:45,500 -45,500 -30,500 30,500 30,500 30,500 30,500 30,500 30,500 30,500 30,500 30,500 30,500 30,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,-500 45,-500 -45,500 45,-500 -45,-500 -45,-500 45,-500 -45,500 45,500
-background:image(background_images/lion.jpg)
+background:image(background_images/jungle.jpg)
 paddle_speed:650
 paddle_width:560
 block_definitions:definitions/jungle_block_definitions.txt
@@ -38,12 +38,8 @@ START_BLOCKS
 -
 -
 -
--
--
--
--zlzlzlzlzlzl--
--lzlzlzlzlzlz--
--zlzlzlzlzlzl--
+-lllllllllllll--
+-zzzzzzzzzzzzz--
 END_BLOCKS
 END_LEVEL
 
@@ -55,7 +51,7 @@ level_name: Retro Arrows
 ball_velocities:45,500 46,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500 47,500
 background:color(RGB(147,0,0))
 paddle_speed:650
-paddle_width:350
+paddle_width:250
 block_definitions:definitions/arrows_block_definitions.txt
 blocks_start_x:25
 blocks_start_y:80
@@ -85,7 +81,7 @@ level_name: Final Four (V2)
 ball_velocities:45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500 45,500
 background:image(background_images/clouds.png)
 paddle_speed:650
-paddle_width:360
+paddle_width:160
 block_definitions:definitions/final_four_block_definitions.txt
 blocks_start_x:25
 blocks_start_y:80
